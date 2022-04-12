@@ -11,12 +11,12 @@
 
 #define SS_PIN 2  //D4  / 2 / 10
 #define RST_PIN 0 //D3  / 0 / 9    // Configurable, see typical pin layout above
-#define SERVER_IP "10.135.254.53"
+#define SERVER_IP ""
 #define RELAY_PIN 4
 #define OPEN_FOR_MILISECONDS 1000
 
-const char* ssid = "dd-wrt";
-const char* password = "telephone";
+const char* ssid = "";
+const char* password = "";
 long int opened_millis = 0;
 String payload = "";
 
